@@ -1,3 +1,3 @@
 export interface SettingsPlugin {
-  openAccessibilitySettings(): Promise<boolean>;
+  openAccessibilitySettings(): Promise<{ value: boolean }>;
 }
